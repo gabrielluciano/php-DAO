@@ -11,7 +11,7 @@ class Sql extends PDO {
             "12345678"
         );
     }
-
+    
     private function setParams($statement, $parameters = array()) {
         
         foreach ($parameters as $key => $value) {
